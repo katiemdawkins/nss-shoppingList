@@ -24,4 +24,13 @@ const shoppingList = [
         quantity: 2
      }
 ]
-console.log(shoppingList)
+//console.log(shoppingList)
+
+// this for... of loop filters through the shopping list to find 
+// any item over $8
+// I don't know what the "list" is called. shoppingList is a variable. list is ??
+for (list of shoppingList) {
+    if (list.price > 8){
+        console.log(`${list.item}`)
+    }
+}
